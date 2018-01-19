@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D81DDE1D2012837200A4F400 /* GuessingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81DDE1C2012837200A4F400 /* GuessingGame.swift */; };
 		D84C0BD020051C2D00D02176 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C0BCF20051C2D00D02176 /* AppDelegate.swift */; };
 		D84C0BD220051C2D00D02176 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C0BD120051C2D00D02176 /* ViewController.swift */; };
 		D84C0BD520051C2D00D02176 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D84C0BD320051C2D00D02176 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D81DDE1C2012837200A4F400 /* GuessingGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessingGame.swift; sourceTree = "<group>"; };
 		D84C0BCC20051C2D00D02176 /* GuessingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D84C0BCF20051C2D00D02176 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D84C0BD120051C2D00D02176 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				D84C0BD620051C2D00D02176 /* Assets.xcassets */,
 				D84C0BD820051C2D00D02176 /* LaunchScreen.storyboard */,
 				D84C0BDB20051C2D00D02176 /* Info.plist */,
+				D81DDE1C2012837200A4F400 /* GuessingGame.swift */,
 			);
 			path = GuessingGame;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D84C0BD220051C2D00D02176 /* ViewController.swift in Sources */,
+				D81DDE1D2012837200A4F400 /* GuessingGame.swift in Sources */,
 				D84C0BD020051C2D00D02176 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,9 +279,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XP9N9374P;
 				INFOPLIST_FILE = GuessingGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ca.on.lcs.GuessingGame;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.on.lcs.mcenery.GuessingGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -289,9 +294,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XP9N9374P;
 				INFOPLIST_FILE = GuessingGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ca.on.lcs.GuessingGame;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.on.lcs.mcenery.GuessingGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
